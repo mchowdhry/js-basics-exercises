@@ -67,8 +67,30 @@ let b = 50;
 let x = a + b;
 alert(x);
 
-*/
+
 
 let a = 3;
 let x = (100 + 50) * a;
 alert (x);
+
+
+
+alert(23 + 97)
+alert(1+2+3+4+5+6)
+alert((4 + 6 + 9) / 77)
+
+
+
+let a = 10;
+alert(a);
+alert(9*a);
+
+let b = 7*a;
+alert(b);
+
+*/
+
+const max = 57;
+let actual = (max-13);
+let percentage = (actual/max);
+alert(percentage);
