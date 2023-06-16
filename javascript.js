@@ -30,7 +30,7 @@ function setWeather() {
   }
 }
 
-*/
+
 
 let question = prompt('What is the "official" name of javascript','');
 
@@ -38,4 +38,85 @@ if (question == 'ECMAScript'){
     alert('Right!');
 }   else{
     alert('You don\'t know? "ECMAScript"!')
+}
+
+
+
+let number = prompt('Enter a number', 0);
+
+if (number > 0) {
+  alert(1);
+} else if (number < 0) {
+  alert(-1);
+} else 
+{ alert(0);
+}
+
+
+
+let result = (a + b < 4) ? 'Below' : 'Over';
+
+
+
+let age = prompt('age?', 18);
+
+let message = (age < 3) ? 'Hi, baby!' :
+  (age < 18) ? 'Hello!' :
+  (age < 100) ? 'Greetings!' :
+  'What an unusual age!';
+
+alert( message );
+
+let message = (login == 'Employee') ? 'Hello' :
+  (login == 'Director') ? 'Greetings' :
+  (login == '') ? 'No login' :
+  '';
+}
+
+
+
+if (browser == 'Edge') {
+  alert ('You\'ve got the Edge');
+} else if (browser == 'Chrome' 
+  || browser == 'Firefox' 
+  || browser == 'Safari' 
+  || browser == 'Opera'; {
+  alert ('Okay we support these browsers too');
+} else {
+  alert( 'We hope that this page looks ok!');
+}
+
+
+switch (browser) {
+  case 'Edge':
+    alert( "You've got the Edge!" );
+    break;
+
+  case 'Chrome':
+  case 'Firefox':
+  case 'Safari':
+  case 'Opera':
+    alert( 'Okay we support these browsers too' );
+    break;
+
+  default:
+    alert( 'We hope that this page looks ok!' );
+
+*/
+
+let a = +prompt('a?', '');
+
+switch (a){
+  case 0:
+    alert (0);
+    break;
+
+  case 1:
+    alert (1);
+    break;
+
+  case 2:
+  case 3:
+    alert ('2,3');
+    break;
 }
